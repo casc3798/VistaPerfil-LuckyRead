@@ -1,4 +1,39 @@
-.col-4{
-  background-color: white;
-  display: inline-block;
+.btn-squared-default{
+  width: 370px ;
+  height: 200px ;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.fa{
+  font-size: 150px;
+  margin: 20px;
+}
+
+.btn-squared-default:hover{
+  border: 0px solid white;
+}
+
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+#buttonFrag{
+  background-color: blue;
+  border-color: gray;
+}
+#buttonPref{
+  background-color: gray;
+  border-color: gray;
+}
+#buttonFav{
+  background-color: gray;
+  border-color: gray;
+}
+#buttonInfo{
+  background-color: gray;
+  border-color: gray;
 }
