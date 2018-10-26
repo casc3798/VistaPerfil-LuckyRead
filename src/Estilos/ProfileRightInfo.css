@@ -1,6 +1,4 @@
 .btn-squared-default{
-  width: 370px ;
-  height: 200px ;
   font-size: 15px;
   margin: 20px;
 }
@@ -9,7 +7,9 @@
   font-size: 150px;
   margin: 20px;
 }
-
+i{
+  margin: 0 auto !important;
+}
 .btn-squared-default:hover{
   border: 0px solid white;
 }
@@ -22,18 +22,18 @@
 
 
 #buttonFrag{
-  background-color: blue;
-  border-color: gray;
+  background-color:  #73c6b6 ;
+  border-color:  #73c6b6 ;
 }
 #buttonPref{
-  background-color: gray;
-  border-color: gray;
+  background-color:  #85c1e9 ;
+  border-color:  #85c1e9 ;
 }
 #buttonFav{
-  background-color: gray;
-  border-color: gray;
+  background-color:  #f9e79f ;
+  border-color:  #f9e79f ;
 }
 #buttonInfo{
-  background-color: gray;
-  border-color: gray;
+  background-color: #f8c471;
+  border-color:  #f8c471 ;
 }
