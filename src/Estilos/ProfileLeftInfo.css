@@ -10,6 +10,12 @@
 #profileImage{
   margin-top: 10px;
 }
+#profileImage:hover{
+  opacity: 0.5;
+}
+a{
+  font-size: 13px;
+}
 
 .card{
   background-color: #e5e5e5;

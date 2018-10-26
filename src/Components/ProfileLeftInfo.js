@@ -6,7 +6,9 @@ class ProfileLeftInfo extends Component {
     return (
       <div id="divProfile">
         <div className="card">
-          <img className="rounded-circle" id="profileImage" width="150" height="150" src={perrito}></img>
+          <a href="http://lucky-read.com">
+            <img className="rounded-circle" id="profileImage" width="150" height="150" src={perrito} alt=""></img>
+          </a>
           <div className = "card-body">
             <h4 className="card-title">Perrito Sorprendido</h4>
             <h6 className="card-title">@PerritoLindo</h6>
@@ -18,6 +20,7 @@ class ProfileLeftInfo extends Component {
           </ul>
           <div className="card-body">
             <a href="http://lucky-read.com" className="card-link">Seguidores</a>
+            <a href="http://lucky-read.com" className="card-link">Cambiar foto</a>
             <a href="http://lucky-read.com" className="card-link">Siguiendo</a>
           </div>
         </div>
